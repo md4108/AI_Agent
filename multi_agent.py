@@ -35,7 +35,7 @@ finance_agent = Agent(
 agent_team = Agent(
     team=[web_search_agent, finance_agent],
     model = Groq(id="llama-3.3-70b-versatile"),
-    instructions=["Always include sources", "Use tables to display data"],
+    instructions=["Always include sources ", "Use tables to display data"],
     show_tool_calls=True,
     markdown=True,
     debug_mode =True
