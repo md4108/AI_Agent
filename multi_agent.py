@@ -41,4 +41,4 @@ agent_team = Agent(
     debug_mode =True
 )
 
-agent_team.print_response("Summarize analyst recommendations and share the latest news for NVDA", stream=True)
+agent_team.print_response("Summarize analyst recommendations and share the latest news for  NVDA", stream=True)
