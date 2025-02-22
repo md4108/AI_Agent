@@ -9,7 +9,7 @@ load_dotenv()
 
 web_search_agent = Agent(
     name = "Web Agent",
-    description = "This is the agent for searching content from the web",
+    description = "This is the agent for searching content from the web ",
     model = Groq(id="llama-3.3-70b-versatile"),
     tools  = [DuckDuckGo()],
     instructions = "Always include the sources",
