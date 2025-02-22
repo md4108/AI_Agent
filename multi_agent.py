@@ -22,7 +22,7 @@ web_search_agent = Agent(
 
 finance_agent = Agent(
     name="Finance Agent",
-    description = "Your task is to find the finance information",
+    description = "Your task is to find the finance information ",
     model = Groq(id="llama-3.3-70b-versatile"),
     tools=[YFinanceTools(stock_price=True, analyst_recommendations=True, company_info=True, company_news=True)],
     instructions=["Use tables to display data"],
